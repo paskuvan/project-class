@@ -32,6 +32,7 @@ body {
     background-size: cover;
     width: 1430px;
     height: auto;
+    display: none;
 }
 
 .carousel-item{
@@ -50,7 +51,7 @@ body {
 
 footer {
     background-color: #293462;
-    padding: 20px;
+    padding: 50px;
     color: white;
 }
 
@@ -58,6 +59,11 @@ footer {
     width: 70px;
 }
 
+.datos {
+    text-align: left;
+    font-size: 12px;
+    padding-top: 20px;
+}
 
 
 /* Media Queries */
@@ -73,6 +79,18 @@ footer {
         width: 120px;
         height: auto; 
     }
+
+    #content-five {
+        display: block;
+    }
+
+    .datos {
+        text-align: left;
+        font-size: 12px;
+    }
+
+
+
  }
 
 

@@ -17,13 +17,13 @@ body {
 }
 
 #content-three {
-    background-color: #fdeaab;
+    background-color: #d2fafb;
     color: #293462;
     padding: 20px 0;
 }
 
 #content-four {
-    background-color: #fdeaab;
+    background-color: #6bc5d2;
     color: #293462;
     padding: 20px 0;
 }
@@ -34,8 +34,8 @@ body {
     height: auto;
 }
 
-.carousel-caption {
-    color: black;
+.carousel-item{
+    height: 300px;
 }
 
 .text-three {
